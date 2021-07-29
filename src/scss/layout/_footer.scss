@@ -1,28 +1,41 @@
-.footer{
-    width: 100%;
-	height: 465px;
-	background-color: #304268;
-    &__nav1{
-        width: 73px;
-       height: 150px;
-       &--item{
-        font-family: $text-font;
-        color: #ffffff;
-        text-transform: uppercase;
-        font-size: 16px;
-        line-height: 30px;
-       }
-    }
-    &__nav2{
-        width: 147px;
-        height: 90px;
-        &--item{
-            font-family: $text-font;
-            color: #ffffff;
-            text-transform: uppercase;
-            font-size: 16px;
-            line-height: 30px;
-           }
+.footer {
+  background-color: #304268;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  &__nav1 {
+    margin-top: 60px;
 
-       }
-} 
+    &--item {
+      font-family: $text-font;
+      color: #ffffff;
+      text-transform: uppercase;
+      font-size: 16px;
+      line-height: 30px;
+    }
+  }
+  &__nav2 {
+    padding-top: 30px;
+    &--item {
+      font-family: $text-font;
+      color: #ffffff;
+      text-transform: uppercase;
+      font-size: 16px;
+      line-height: 30px;
+    }
+  }
+  &__copy{
+      font-family: $text-font;
+      font-size: 14px;
+      color: #ffffff;
+      line-height: 30px;
+      &--item1{
+          padding-top: 30px;
+      }
+      &--item2{
+          margin-bottom: 45px;
+      }
+
+  }
+}
