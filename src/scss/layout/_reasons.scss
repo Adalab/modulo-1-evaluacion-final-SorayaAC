@@ -1,8 +1,9 @@
 .reasons {
-	width: 100%;
-	height: 624px;
+	
 	background-color: #eff9ff;
-	display:-ms-inline-grid;
+	display:grid;
+	justify-content: center;
+  	align-items: center;
 	grid-template-columns: 1fr;
 	grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
 	text-align: center;
@@ -13,7 +14,6 @@
 		grid-row: 1;
 	}
 	&__item1 {
-		
 		    grid-row: 2;
 		&--title1 {
 			font-family: $title-font;
@@ -26,7 +26,6 @@
 	}
 
 		&__item2 {
-			
 				grid-row: 3;
 			&--title2 {
 				font-family: $title-font;
@@ -38,12 +37,10 @@
 			}
 		}
 		&__item3 {
-			
 				grid-row: 4;
 			&--title3 {
 				font-family: $title-font;
-				font-size: 18px;
-				
+				font-size: 18px;	
 			}
 			&--text3 {
 				font-family: $text-font;
