@@ -1,22 +1,17 @@
 .hero{
    display: flex;
    flex-direction : column;
-   
-  
- 
    &__container{
       text-align: center;
          &--cover{
-            width: 100%;
-            height:568px ;
+            height: 568px;
             background: url("/assets/images/cover.jpg");
-            background-position: center; 
+            background-position: top;
             background-size: cover;
             min-width: 320px;
             }
          &--title1{
-            width: 290px;
-            height: 110px;
+            padding-top: 284px;
             font-family: $title-font;
             font-size: 42px;
             line-height: 55px;
@@ -34,8 +29,8 @@
 		         width: 45px;
 		         height: 45px;
                background-color:#ffffff ;
-               margin-bottom: 53px;
-               // border-radius: 22.5px;
+               padding-top: 45px;
+               
             }
    }
   
