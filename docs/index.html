@@ -26,16 +26,26 @@
       </div>
     </header>
 
-    <!-- hero -->
-    <section class="hero">
-      <div class="hero__image">
-        <h1 class="hero__title1">Anonymous proxy</h1>
-        <h2 class="hero__title2">In hac habitasse platea dictumst</h2>
-      </div>
-    </section>
 
-    <!-- main -->
     <main>
+      <!-- hero -->
+      <section>
+        <div class="hero__container">
+          <div class="hero__container--cover">
+            <h1 class="hero__container--title1">Anonymous proxy</h1>
+            <h2 class="hero__container--title2">In hac habitasse platea dictumst</h2>
+            <button class="hero__container__button">
+              <img
+                src="/assets/images/ico-scroll-down.svg"
+                alt=""
+                class="hero__container--scroll"
+              />
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- looking -->
       <section class="tips">
         <p class="tips__small">Insomnia tips</p>
         <h3 class="tips__title">Looking through a window</h3>
@@ -43,29 +53,32 @@
           Donec accumsan, nulla ut volupat porttitor, quam odio tempus felis, at
           luctus ex diam nec lectus. Vivamus semper sodales rutrum.
         </p>
-        Go
+        <button class="tips__button">Go</button>
       </section>
 
+
+      <!-- reasons -->
       <section class="reasons">
-        <h3 class="reasons__title">3 reasons to purchase</h3>
+          <h3 class="reasons__title">3 reasons to purchase</h3>
 
-        <article class="reasons__item">
-          <h4 class="reasons__item--title">Ut sed metus</h4>
-          <p class="reasons__item--text">Lorem ipsum dolor sit amet, consecteur.</p>
-        </article>
+          <article class="reasons__item1">
+            <h4 class="reasons__item1--title1">Ut sed metus</h4>
+            <p class="reasons__item1--text1">Lorem ipsum dolor sit amet, consecteur.</p>
+          </article>
 
-        <article class="reasons__item"></article>
-        <h4 class="reasons__item--title">Curabitur ac erat</h4>
-        <p class="reasons__item--text">Mauris mattis urna quis lorem molestie.</p>
-        </article>
+          <article class="reasons__item2"></article>
+          <h4 class="reasons__item2--title2">Curabitur ac erat</h4>
+          <p class="reasons__item2--text2">Mauris mattis urna quis lorem molestie.</p>
+          </article>
 
-        <article class="reasons__item">
-          <h4 class="reasons__item--title">Morbi dictum.</h4>
-          <p class="reasons__item--text">Aliquam in dolor et dolor tincidunt.</p>
-        </article>
-
-        More reasons
-      </section>
+          <article class="reasons__item3">
+            <h4 class="reasons__item3--title3">Morbi dictum.</h4>
+            <p class="reasons__item3--text3">Aliquam in dolor et dolor tincidunt.</p>
+          </article>
+          <button class="button">More reasons</button>
+          
+          
+        </section>
     </main>
     <!-- footer -->
     <footer class="footer">
@@ -87,9 +100,9 @@
         </ul>
       </nav>
 
-      <ul>
-        <li>&copy; 2021</li>
-        <li>we components</li>
+      <ul class="footer__copy">
+        <li class="footer__copy--item1">&copy;2021</li>
+        <li class="footer__copy--item2">we components</li>
       </ul>
     </footer>
 
