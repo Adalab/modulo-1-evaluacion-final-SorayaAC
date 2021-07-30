@@ -1,64 +1,54 @@
 .reasons {
-	
 	background-color: #eff9ff;
-	display:grid;
+	display: grid;
 	justify-content: center;
-  	align-items: center;
-	grid-template-columns: 1fr;
-	grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+	align-items: center;
 	text-align: center;
 	&__title {
 		font-family: $title-font;
 		font-size: 24px;
-		
-		grid-row: 1;
 	}
 	&__item1 {
-		    grid-row: 2;
 		&--title1 {
 			font-family: $title-font;
-			font-size: 18px;	
+			font-size: 18px;
 		}
 		&--text1 {
 			font-family: $text-font;
 			font-size: 18px;
 		}
 	}
-
-		&__item2 {
-				grid-row: 3;
-			&--title2 {
-				font-family: $title-font;
-				font-size: 18px;	
-			}
-			&--text2 {
-				font-family: $text-font;
-				font-size: 18px;
-			}
+	&__item2 {
+		&--title2 {
+			font-family: $title-font;
+			font-size: 18px;
 		}
-		&__item3 {
-				grid-row: 4;
-			&--title3 {
-				font-family: $title-font;
-				font-size: 18px;	
-			}
-			&--text3 {
-				font-family: $text-font;
-				font-size: 18px;
-			}
+		&--text2 {
+			font-family: $text-font;
+			font-size: 18px;
 		}
 	}
-
-.button{
-	width: 184px;
-	height: 45px;
-	background-color: #f26002;
-	border-radius: 22.5px;
-	font-family: $text-font ;
-	font-size: 20px;
-	color: #ffffff;
-  text-align: center;
-  border-color: #f26002;
-  border-style: solid;
-  
+	&__item3 {
+		&--title3 {
+			font-family: $title-font;
+			font-size: 18px;
+		}
+		&--text3 {
+			font-family: $text-font;
+			font-size: 18px;
+		}
+	}
+	&__button {
+		align-items: center;
+		width: 184px;
+		height: 45px;
+		background-color: #f26002;
+		border-radius: 22.5px;
+		font-family: $text-font;
+		font-size: 20px;
+		color: #ffffff;
+		text-align: center;
+		border-color: #f26002;
+		border-style: solid;
+	}
 }
