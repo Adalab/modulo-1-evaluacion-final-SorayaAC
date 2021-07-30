@@ -60,10 +60,10 @@
 	}
 	&__item5 {
 		margin-top: 45px;
-		margin-bottom: 60px;
+		
 		
 
-		&--button{
+		&--button1{
 			align-items: center;
 			width: 184px;
 			height: 45px;
@@ -75,7 +75,19 @@
 			text-align: center;
 			border-color: #f26002;
 			border-style: solid;
-		}
-		
+		}	
 	}
+	&__item6{
+
+		&--button2{
+			width: 45px;
+			height: 45px;
+			border-radius: 22.5px;
+			background-color:#ffffff ;
+			margin-top: 45px;
+			border-color: #ffffff;
+			border-style: solid;
+		}
+	}
+
 }
