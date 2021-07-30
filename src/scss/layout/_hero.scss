@@ -5,8 +5,8 @@
       text-align: center;
          &--cover{
             height: 568px;
-            background: url("/assets/images/cover.jpg");
-            background-position: top;
+            background: url("./assets/images/cover.jpg");
+            background-position: center top;
             background-size: cover;
             min-width: 320px;
             }
