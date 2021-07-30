@@ -1,7 +1,6 @@
 .hero{
    display: flex;
    flex-direction : column;
-   z-index: 9999;
    &__container{
       text-align: center;
          &--cover{
@@ -9,7 +8,6 @@
             background: url("../images/cover.jpg");
             background-position: center top;
             background-size: cover;
-            min-width: 320px;
             }
          &--title1{
             padding-top: 284px;
@@ -26,29 +24,24 @@
             color: #ffffff ; 
             margin-top: 10px; 
             }
+            &--button{
+               width: 45px;
+               height: 45px;
+               border-radius: 22.5px;
+               background-color:#ffffff ;
+               margin-top: 45px;
+               &__scroll{
+                  width: 20px;
+                  height: 11.7px;
+                  
+                  
+                  
+               }
+                 
+            }
+            
            
    }
-   &__button{
-      display: flex;
-      flex-direction : column;
-      justify-content: center;
-      align-items: center;
-      width: 45px;
-      height: 45px;
-      border-radius: 22.5px;
-      background-color:#ffffff ;
-      margin-top: 45px;
-      margin-left: 138px ;
-      
-      
-      
-   }
-   &--scroll{
-      width: 20px;
-      height: 11.7px;
-      
-      
-      
-   }
+  
   
 }
