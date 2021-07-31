@@ -10,6 +10,10 @@
             background: url("../images/cover.jpg");
             background-position: center top;
             background-size: cover;
+            @media all and (min-width:768px) {
+               height: 768px;
+           }
+           
             }
          &--title1{
             padding-top: 284px;
@@ -18,12 +22,23 @@
             line-height: 55px;
             color: #ffffff ;
             text-transform: uppercase;
+            @media all and (min-width:768px) {
+               padding-top: 384px;
+            font-size: 80px;
+            line-height: 106px;
+           }
             }
          &--title2{
             font-family: $text-font;
             font-size: 16px;
             color: #ffffff ; 
             margin-top: 10px; 
+            @media all and (min-width:768px) {
+               
+               font-size: 24px;
+               
+               margin-top: 20px;
+           }
             }
             &--button{
                width: 45px;
@@ -37,7 +52,12 @@
                   width: 20px;
                   height: 11.7px;
                   transform: translate(0, 3px) 
-               }     
+               } 
+               @media all and (min-width:768px) {
+                  
+                  margin-bottom: 45px;
+                  
+              }    
             }     
    }
 }

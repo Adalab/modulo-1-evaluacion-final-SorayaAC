@@ -5,8 +5,13 @@ body{
   
   .wrapper {
      margin: 0 15px;
-    }
-  .wrapper2 {
+
+     @media all and (min-width:768px) {
+      margin: 0 39px;
+  }
+  }
+  
+      .wrapper2 {
     margin: 0 65px;
 
   }
