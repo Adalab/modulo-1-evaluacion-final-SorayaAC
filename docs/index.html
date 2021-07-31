@@ -35,7 +35,7 @@
 
     <main>
       <!-- hero -->
-      <section class="hero">
+      <section class="hero" id="call2">
         <div class="hero__container">
           <div class="hero__container--cover">
             <div class="wrapper">
@@ -43,13 +43,14 @@
               <h2 class="hero__container--title2">
                 In hac habitasse platea dictumst
               </h2>
-              <button class="hero__container--button">
-                <img
-                  src="./assets/images/ico-scroll-down.svg"
-                  alt=""
-                  class="hero__container--button__scroll"
-                />
-              </button>
+              <a href="#call1"
+                ><button class="hero__container--button">
+                  <img
+                    src="./assets/images/ico-scroll-down.svg"
+                    alt=""
+                    class="hero__container--button__scroll"
+                  /></button
+              ></a>
             </div>
           </div>
         </div>
@@ -70,7 +71,7 @@
 
 
       <!-- reasons -->
-      <section class="reasons">
+      <section class="reasons" id="call1">
         <div class="wrapper">
           <div class="reasons__item1">
             <h3 class="reasons__item1--title0">3 reasons to purchase</h3>
@@ -98,12 +99,6 @@
             <div class="reasons__item5">
               <button class="reasons__item5--button1">More reasons</button>
             </div>
-
-            <div class="reasons__item6">
-              <button class="reasons__item6--button2">
-                <img src="./assets/images/ico-arrow.svg" alt="" />
-              </button>
-            </div>
           </div>
         </div>
       </section>
@@ -112,21 +107,83 @@
     <!-- footer -->
     <footer class="footer">
       <div class="wrapper2">
+        <div class="footer__button">
+          <a href="#call2">
+            <button class="footer__button--arrow">
+              <img src="./assets/images/ico-arrow.svg" alt="" /></button
+          ></a>
+        </div>
         <nav class="footer__nav1">
           <ul class="footer__nav1--list">
-            <li class="footer__nav1--item">articles</li>
-            <li class="footer__nav1--item">books</li>
-            <li class="footer__nav1--item">events</li>
-            <li class="footer__nav1--item">reasons</li>
-            <li class="footer__nav1--item">tips</li>
+            <li>
+              <a
+                href="https://adalab.es/"
+                target="_blank"
+                class="footer__nav1--item"
+                >articles</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://adalab.es/"
+                target="_blank"
+                class="footer__nav1--item"
+                >books</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://adalab.es/"
+                target="_blank"
+                class="footer__nav1--item"
+                >events</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://adalab.es/"
+                target="_blank"
+                class="footer__nav1--item"
+                >reasons</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://adalab.es/"
+                target="_blank"
+                class="footer__nav1--item"
+                >tips</a
+              >
+            </li>
           </ul>
         </nav>
 
         <nav class="footer__nav2">
           <ul class="footer__nav--list">
-            <li class="footer__nav2--item">twitter</li>
-            <li class="footer__nav2--item">instagram</li>
-            <li class="footer__nav2--item">mastodon.social</li>
+            <li>
+              <a
+                href="https://adalab.es/"
+                target="_blank"
+                class="footer__nav2--item"
+                >twitter</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://adalab.es/"
+                target="_blank"
+                class="footer__nav2--item"
+                >instagram</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://adalab.es/"
+                target="_blank"
+                class="footer__nav2--item"
+                >mastodon.social</a
+              >
+            </li>
           </ul>
         </nav>
 
