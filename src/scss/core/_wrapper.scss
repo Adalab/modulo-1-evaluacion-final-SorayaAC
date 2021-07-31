@@ -13,5 +13,8 @@ body{
   
       .wrapper2 {
     margin: 0 65px;
+     @media all and (min-width:768px) {
+       margin: 0 39px;
+   }
 
   }

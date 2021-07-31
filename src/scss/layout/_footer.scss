@@ -1,26 +1,27 @@
 .footer {
-  background-color: #304268;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
+	background-color: #304268;
+
   &__button{
+    display:flex;
+    
+      	justify-items: center;
+        justify-content: center;
 
     &--arrow{
       width: 45px;
       height: 45px;
       border-radius: 22.5px;
-      background-color:#ffffff ;
-      
+      background-color:#ffffff ;     
       border-color: #ffffff;
       border-style: solid;
       border-radius: 50%;
       position: relative;
-            bottom: 20px;
+      bottom: 20px;
       animation-name: move;
-      animation-duration: 10s;
+      animation-duration: 7s;
       animation-iteration-count: infinite;
-      animation-timing-function: linear;	
+      animation-timing-function: linear;
+    
     }
 
     @keyframes move {
@@ -32,45 +33,76 @@
         }
     }
   }
-  &__nav1 {
-    margin-top: 37px;
-    
-    &--item {
-      text-decoration: none;
+	
+	&__container {
+		display: flex;
+		flex-direction: column-reverse;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		@media all and (min-width: 768px) {
+			flex-direction: row;
+		}
+		&--nav1 {
       font-family: $text-font;
       color: #ffffff;
       text-transform: uppercase;
       font-size: 16px;
       line-height: 30px;
-    }
-  }
-  &__nav2 {
-    padding-top: 30px;
-    &--item {
       text-decoration: none;
-      font-family: $text-font;
-      color: #ffffff;
-      text-transform: uppercase;
-      font-size: 16px;
-      line-height: 30px;
-    }
-  }
-
-
-  &__copy{
-      font-family: $text-font;
-      font-size: 14px;
-      color: #ffffff;
-      line-height: 30px;
-      &--item1{
-      padding-top: 30px;
+      margin-top: 30px;
+			&__item {
+        font-family: $text-font;
+        color: #ffffff;
+        text-transform: uppercase;
+        font-size: 16px;
+        line-height: 30px;
+        text-decoration: none;
       }
-      &--item2{
-          margin-bottom: 45px;
-      }
-      
+		
+		}
 
-  }
+    &--nav2 {
+      font-family: $text-font;
+				color: #ffffff;
+				text-transform: uppercase;
+				font-size: 16px;
+				line-height: 30px;
+				text-decoration: none;
+        margin-top: 20px ;
+			&__item {
+				font-family: $text-font;
+				color: #ffffff;
+				text-transform: uppercase;
+				font-size: 16px;
+				line-height: 30px;
+				text-decoration: none;
+      }
+		
+		}
+		&--copy {
+      margin-top: 30px;
+      margin-bottom: 45px;
+			&__list {
+				font-family: $text-font;
+				font-size: 14px;
+				color: #ffffff;
+				line-height: 30px;
+        
+        
+			}
+			// @media all and (min-width:768px) {
+			// 	flex-direction: row;
+			// }
+			&--item1 {
+				// padding-bottom: 45px;
+			}
+			&--item2 {
+        padding-bottom: 45px;
+				
+			}
+		}
+	}
 }
 .fa-heart{
   color: #f26002;
