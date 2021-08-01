@@ -50,6 +50,18 @@
     margin-top: -20px;
     
 		}
+
+    @media all and (min-width: 1280px) {
+      align-items: baseline;
+      padding-left: 370px;
+      padding-right: 370px;
+      
+
+      
+      
+      
+      
+      }
 		&--nav1 {
       font-family: $text-font;
       color: #ffffff;
@@ -60,6 +72,10 @@
       margin-top: 30px;
       @media all and (min-width: 768px) {
         margin-bottom: 45px;
+        
+      }
+      @media all and (min-width: 1280px) {
+        
         
       }
 			&__item {
@@ -87,6 +103,10 @@
           
           
         }
+        @media all and (min-width: 1280px) {
+          
+          
+        }
 			&__item {
 				font-family: $text-font;
 				color: #ffffff;
@@ -103,6 +123,10 @@
       @media all and (min-width: 768px) {
         
        
+      }
+      @media all and (min-width: 1280px) {
+        
+        
       }
 			&__list {
 				font-family: $text-font;
