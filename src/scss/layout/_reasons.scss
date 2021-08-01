@@ -1,72 +1,31 @@
 .reasons {
-	display: grid;
 	background-color: #eff9ff;
+	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
+	
 	@media all and (min-width:768px) {	
-		
 		
 		text-align: center;	
 			} 
 	
-	&__item1 {
-		
-		&--title0{
-			font-family: $title-font;
-			font-size: 24px;
-			text-transform: capitalize;
-			line-height: 30px;
-			margin-top: 30px;
-		}
-		
+	&__title {
+		font-family: $title-font;
+		font-size: 24px;
+		text-transform: capitalize;
+		line-height: 30px;
+		margin-top: 30px;
+		margin-bottom: 45px;	
 	}
-	&__item2 {
-		margin-top: 45px;
-		&--title {
-			font-family: $title-font;
-			font-size: 18px;
-			line-height: 30px;
-			
-		}
-		&--text {
-			font-family: $text-font;
-			font-size: 18px;
-			line-height: 30px;
-		}
-	}
-	&__item3 {
-		margin-top: 45px;
-		&--title {
-			font-family: $title-font;
-			font-size: 18px;
-			line-height: 30px;
-		}
-		&--text {
-			font-family: $text-font;
-			font-size: 18px;
-			line-height: 30px;
-		}
-	}
-	&__item4 {
-
-		margin-top: 45px;
-		&--title {
-			font-family: $title-font;
-			font-size: 18px;
-			line-height: 30px;
-		}
-		&--text {
-			font-family: $text-font;
-			font-size: 18px;
-			line-height: 30px;
-		}
-	}
-	&__item5 {
+	
+	&__button {
 		margin-top: 45px;
 		margin-bottom: 60px;
-		&--button1{
-			align-items: center;
+		align-items: center;
+			
+		&--text{
 			width: 184px;
 			height: 45px;
 			background-color: #f26002;
@@ -80,13 +39,65 @@
 			transition: color ease 1s, background-color ease 1s, border-color ease 1s;
 		}	
 
-		&--button1:hover{
+		&--text:hover{
 		background-color: #ffffff;
 		border-color: #f26002;
 		color:#f26002;
-			
+	
 		}	
 	}
-	
 
 }
+.items{
+	display: grid;
+	grid-gap: 45px;
+	grid-template-columns: 1fr 1fr 1fr;
+	@media all and (min-width: 768px) {
+	
+
+	}
+	&__item1{
+
+		&--title{
+			font-family: $title-font;
+			font-size: 18px;
+			line-height: 30px;
+		}
+		&--text{
+			font-family: $text-font;
+			font-size: 18px;
+			line-height: 30px;
+		}
+
+	}
+	&__item2{
+
+		&--title{
+			font-family: $title-font;
+			font-size: 18px;
+			line-height: 30px;
+		}
+		&--text{
+			font-family: $text-font;
+			font-size: 18px;
+			line-height: 30px;
+		}
+
+	}
+	&__item3{
+
+		&--title{
+			font-family: $title-font;
+			font-size: 18px;
+			line-height: 30px;
+		}
+		&--text{
+			font-family: $text-font;
+			font-size: 18px;
+			line-height: 30px;
+		}
+
+	}
+
+}
+

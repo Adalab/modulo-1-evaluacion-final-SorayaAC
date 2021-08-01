@@ -4,7 +4,7 @@
   &__button{
     display:flex;
     
-      	justify-items: center;
+    justify-items: center;
         justify-content: center;
 
     &--arrow{
@@ -35,13 +35,19 @@
   }
 	
 	&__container {
+    
 		display: flex;
-		flex-direction: column-reverse;
+		flex-direction: column;
 		justify-content: center;
 		align-items: center;
 		text-align: center;
 		@media all and (min-width: 768px) {
-			flex-direction: row;
+			flex-direction: row-reverse;
+      justify-content: space-around;
+		text-align: left;
+    align-items: baseline;
+    margin-top: 45px;
+    
 		}
 		&--nav1 {
       font-family: $text-font;
@@ -51,6 +57,17 @@
       line-height: 30px;
       text-decoration: none;
       margin-top: 30px;
+      @media all and (min-width: 768px) {
+        width: 210px;
+        height: 150px;
+        padding: 45px 39px;
+        
+        margin: 0 30px;
+        
+        
+        
+        
+      }
 			&__item {
         font-family: $text-font;
         color: #ffffff;
@@ -58,6 +75,7 @@
         font-size: 16px;
         line-height: 30px;
         text-decoration: none;
+
       }
 		
 		}
@@ -70,6 +88,13 @@
 				line-height: 30px;
 				text-decoration: none;
         margin-top: 20px ;
+        @media all and (min-width: 768px) {
+          margin-top: 0px;
+          order:-1;
+          width: 210px;
+          height: 98px;
+          
+        }
 			&__item {
 				font-family: $text-font;
 				color: #ffffff;
@@ -83,6 +108,10 @@
 		&--copy {
       margin-top: 30px;
       margin-bottom: 45px;
+      @media all and (min-width: 768px) {
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
 			&__list {
 				font-family: $text-font;
 				font-size: 14px;
@@ -94,13 +123,6 @@
 			// @media all and (min-width:768px) {
 			// 	flex-direction: row;
 			// }
-			&--item1 {
-				// padding-bottom: 45px;
-			}
-			&--item2 {
-        padding-bottom: 45px;
-				
-			}
 		}
 	}
 }

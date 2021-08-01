@@ -1,20 +1,20 @@
 body{
-    min-width: 320px;
+    min-width: 320px;     
     overflow-x: hidden;
-  }
+ }
   
-  .wrapper {
-     margin: 0 15px;
+.wrapper {
+ margin: 0 15px;
 
-     @media all and (min-width:768px) {
+ @media all and (min-width:768px) {
       margin: 0 39px;
-  }
-  }
+ }
+}
   
-      .wrapper2 {
-    margin: 0 65px;
-     @media all and (min-width:768px) {
-       margin: 0 39px;
-   }
+.wrapper2 {
+margin: 0 65px;
+ @media all and (min-width:768px) {
+margin: 0px 0px 0px -26px;
+ }
 
-  }
+ }
